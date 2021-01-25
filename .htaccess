@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+Options -Indexes
+RewriteEngine on
+
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+
+RewriteRule ^(.*)/(.*)/(.*) index.php?controller=$1&action=$2&ruta=$3
+</IfModule>

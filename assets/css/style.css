@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* NAV */
+
+.navbar{
+    font-family: 'Lobster Two', cursive;
+    font-size: 20px;
+}
+
+.navbar-brand{
+    font-size: 30px;
+}
+
+.btn-sub{
+    display: block;
+    margin: 20px auto;
+    background: #d29c21;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    transition: all 520ms;
+}
+
+#label-sub{
+    display: block;
+    text-align: center;
+    padding: 2px 0;
+}
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.card{
+    font-family: Helvetica;
+}
+
+.grid-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    text-align: center;
+}
+
+.i{
+    margin-right: 6px;
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.carpeta{
+    color: #cfd212;
+    display: block !important;
+}
+
+.archivo{
+    color: #4545e6;
+    display: block !important;
+}
+
+.a-sub{
+    color: black;
+}
+
+.atras{
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #484c4c;
+    background: #e0dede;
+}
+
+footer{
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+.formLoginRegister{
+    padding: 70px 0;
+}
+
+#fondo{
+    height: 100vh;
+    background: url(http://localhost/senntcloud/assets/img/bg-min.jpeg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+#logo{
+    width: 80px;
+    height: 80px;
+    background: #b80f22;
+    border-radius: 50%;
+    position: absolute;
+    top: -40px;
+    left: calc(50%  - 50px);
+    text-align: center;
+}
+
+#logo i{
+    color: white;
+    line-height: 80px;
+}
+
+.login-box{
+    width: 320px;
+    height: 380px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-ize: 20px;
+}
+
+.login-box label{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+
+.login-box input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: dark-gray;
+}
+
+.login a:hover{
+    color: #fff;
+}
+
+.register{
+    height: 420px;
+}
+
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"]{
+    height: 25px;
+}
+
+.grid-5{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    text-align: center;
+    margin: 20px 0 30px 0;
+    padding: 20px 0;
+    line-height: 20px;
+    border: 1px solid #ccc;
+}
+
+.grid-5 div i{
+    font-size: 30px;
+}
+
+.red{
+    color: #da0606;
+}
+
+.ok{
+    color: #25bd25;
+}
+
+.err{
+    color: #ce1919
+}
+
+.carpetas{
+    padding: 10px 10px;
+    margin: 0 10px 15px 10px;
+    background: #e8e4e4;
+    text-align: center;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    line-height: 35px;
+    transition: all 520ms;
+    max-height: 60px;
+    overflow-x: hidden;
+    direction: rtl;
+}
+
+.carpetas::-webkit-scrollbar{
+    width: 7px;
+}
+
+.carpetas::-webkit-scrollbar-thumb{
+    background: #ff9d00;
+    border-radius: 5px;
+}
+
+.a-sub:hover{
+    color: #655a5a;
+}
+
+.alert{
+    padding: 10px;
+}
+
+.btn-close{
+    padding: 15px !important;
+}
+
+.image{
+    color: #88176a;
+}
+
+.abrir-image{
+    max-width: 100%;
+    max-height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.mas{
+    display: block;
+    position: relative;
+    color: black;
+    font-weight: bold;
+}
