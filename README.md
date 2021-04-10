@@ -1,4 +1,4 @@
-# SenntCloud
+# Gestor de archivos
 ## Sistema de nube con PHP POO MVC
 
 Un sistema de nube donde te puedes crear una cuenta y dentro podras crear carpetas, subir cualquier tipo de archivos, visualizarlos
